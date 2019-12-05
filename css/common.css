@@ -1,0 +1,11 @@
+*{ margin : 0; padding : 0;box-sizing: border-box;}
+a{text-decoration: none;}
+ul,li{ list-style: none;}
+img{ display: block;}
+html,body{ height:100%;}
+.body{font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;}
+.clearfix:after{ content:""; display: block; clear:both;}
+
+#main{ height: 100%; display: flex; flex-direction:column;}
+#content{ flex:1; overflow:auto; margin-bottom: 50px; position: relative; display: flex; flex-direction:column;}
+
